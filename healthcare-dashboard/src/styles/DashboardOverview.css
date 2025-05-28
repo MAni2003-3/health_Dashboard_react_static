@@ -1,0 +1,33 @@
+.dashboard-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.overview-top {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.overview-side {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+  min-width: 300px;
+}
+
+/* NEW */
+.overview-bottom {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.overview-bottom > * {
+  flex: 1;
+  min-width: 300px;
+}
+

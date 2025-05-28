@@ -1,0 +1,42 @@
+.activity-feed {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  max-width: 320px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.activity-feed h3 {
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #333;
+}
+
+.activity-feed p {
+  margin-bottom: 16px;
+  color: #666;
+  font-size: 14px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 140px;
+  background-color: #f9fafc;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.bar {
+  width: 20px;
+  background-color: #4f8df9;
+  border-radius: 6px 6px 0 0;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.bar:hover {
+  background-color: #2f63f7;
+}
